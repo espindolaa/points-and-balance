@@ -1,12 +1,30 @@
 .Competitor {
-    border-right: 2px solid #2b7a78;
-    color: #17252a
+    color: #373737;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 5vw 0 5vw;
+}
+
+@media only screen and (min-device-width: 812px) {
+    .Competitor {
+        border-right: 2px solid #c0b283;
+    }
 }
 
 .Points {
-    color: #feffff;
+    color: #dcd0c0;
     font-size: 2em;
-    font-weight: bold;;
+    font-weight: bold;
+}
+
+.Name {
+    font-size: 1.2em;
+}
+
+.Role {
+    margin-bottom: 1vh;
 }
 
 .Photo {

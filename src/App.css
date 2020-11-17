@@ -1,20 +1,43 @@
-.App-header {
-  min-height: 10vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .Competitors-container {
   display: grid;
   min-width: 100vw;
-  grid-template-columns: 1fr 1fr 1fr;
-  text-align: center;
+  margin: 20vh 0 20vh 0;
+}
+
+@media only screen and (min-device-width: 812px) {
+  .Competitors-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (max-device-width: 812px) {
+  .Competitors-container {
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 }
 
 .Competitor {
   margin-top: 10vh;
+}
+
+.App {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.Content {
+  flex: 1 0 auto;
+}
+
+.Footer {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: center;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #c0b283;
 }

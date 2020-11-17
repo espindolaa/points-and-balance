@@ -7,23 +7,27 @@ function App() {
   console.debug(competitors);
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
-      <div className="Competitors-container">
-        { 
-        competitors.map(competitor => {
-          console.debug(competitor);
-          return(<Competitor 
-                  name={competitor.name}
-                  photo={competitor.photo}
-                  role={competitor.role}
-                  points={competitor.points}
-                  description={competitor.description}
-                  className="Competitor">
-                  </Competitor>)
-        })
-        }
+      <div className="Content">
+        <div className="Competitors-container">
+          { 
+          competitors.map(competitor => {
+            return(<Competitor 
+                    name={competitor.name}
+                    photo={competitor.photo}
+                    role={competitor.role} Nathaniel Muskat
+                    points={competitor.points}
+                    description={competitor.description}
+                    url={competitor.url}
+                    className="Competitor">
+                    </Competitor>)
+              })
+          }
+        </div>
       </div>
+        <footer className="Footer">
+          <p>source code <a href="https://github.com/espindolaa/points-and-balances" target="_blank" rel="noreferrer">here</a></p>
+          <p>made by <a href="https://espindolaa.github.io/" target="_blank" rel="noreferrer">espindolaa</a></p>
+          </footer>
     </div>
   );
 }
