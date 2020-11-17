@@ -1,0 +1,24 @@
+{
+    "competitors": [{
+        "name": "Jon Fasman",
+        "role": "Host/face poker",
+        "points": "50",
+        "description": "",
+        "photo": "https://pbs.twimg.com/profile_images/1293314577254555648/t1v9kVx7_400x400.jpg"
+    },
+    {
+        "name": "Charlotte Howard",
+        "role": "Competitor",
+        "points": "50",
+        "description": "",
+        "photo": "https://pbs.twimg.com/profile_images/1253044253518946305/ANJ1wXMH_400x400.jpg"
+
+    },
+    {
+        "name": "John Prideaux",
+        "role": "Competitor",
+        "points": "50",
+        "description": "",
+        "photo": "https://pbs.twimg.com/profile_images/1220043978869002242/09xqkNbX_400x400.jpg"
+    }
+]}

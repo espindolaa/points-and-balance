@@ -1,0 +1,23 @@
+.Competitor {
+    border-right: 2px solid #2b7a78;
+    color: #17252a
+}
+
+.Points {
+    color: #feffff;
+    font-size: 2em;
+    font-weight: bold;;
+}
+
+.Photo {
+    border-radius: 50%;
+    max-width: 10vh;
+}
+
+p {
+    margin: 0;
+}
+
+.Competitor:last-child {
+    border: none;
+}
